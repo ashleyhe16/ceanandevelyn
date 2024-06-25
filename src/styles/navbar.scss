@@ -1,0 +1,48 @@
+.navbar {
+  /* Ensure navbar doesn't overflow horizontally */
+  overflow-x: auto;
+}
+
+.navbar__links {
+  list-style-type: none; /* Remove default list styles */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+  display: flex; /* Use flexbox */
+  justify-content: center; /* Start items from the left */
+  align-items: center; /* Center items vertically */
+}
+
+.navbar__links li {
+  margin-right: 20px; /* Adjust spacing between items as needed */
+}
+
+.navbar__link {
+  text-decoration: none;
+  color: #333; /* Example text color */
+  padding: 10px; /* Padding around link */
+  display: block; /* Ensure link behaves as block element */
+}
+
+/* Optional: Hide divider by default and show on hover */
+.navbar__link:hover .navbar__divider {
+  display: block;
+}
+
+.navbar__divider {
+  display: none; /* Hide divider by default */
+  height: 2px;
+  background-color: #333; /* Example divider color */
+  margin-bottom: 5px; /* Adjust spacing */
+}
+
+.navbar__text {
+  font-size: 16px; /* Example font size */
+  font-weight: bold; /* Example font weight */
+}
+
+.navbar__text--hidden-mobile {
+  /* Example: Hide text on smaller screens */
+  @media (max-width: 768px) {
+    display: none;
+  }
+}

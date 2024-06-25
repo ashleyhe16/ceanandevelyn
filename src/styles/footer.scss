@@ -1,0 +1,14 @@
+.footer {
+  display: flex;
+  justify-content: center; /* horizontally center */
+  align-items: center; /* vertically center */
+  //   height: 100vh; /* example: full viewport height */
+
+  // Additional styling for the text container
+  text-align: center; /* center text horizontally */
+
+  // Example additional styles for the text
+  font-size: 12px;
+  color: #333;
+  //   background-color: #f0f0f0;
+}
