@@ -8,7 +8,7 @@ const Input = (props) => {
         <div className="control__textbox-group">
           <label className="control__textbox-label" htmlFor="fullName">
             {props.guestNum === 0
-              ? "Guest Name"
+              ? "Guest Name (Full Name)"
               : `Guest ${props.guestNum}'s name`}
           </label>
           <input
@@ -73,7 +73,7 @@ const Input = (props) => {
             className="control__textbox-label"
             htmlFor="dietaryRestrictions"
           >
-            Any dietary restrictions?
+            Any dietary restrictions? (Leave blank if none)
           </label>
           <label
             className="control__textbox-caption"

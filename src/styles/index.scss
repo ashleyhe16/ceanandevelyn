@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "Maru";
+  src:
+    local("Maru"),
+    url(../fonts/MaruSans-Regular.woff2) format("woff2");
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+                            'embedded-opentype', and 'svg' */
+}
+
+.main {
+  font-family: "Maru";
+}

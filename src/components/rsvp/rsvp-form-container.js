@@ -2,6 +2,7 @@ import React from "react";
 import Input from "./input";
 import Summary from "./summary";
 import Result from "./result";
+import "../../styles/rsvp/form.scss";
 
 const uuid = require("uuid");
 require("es6-promise").polyfill();

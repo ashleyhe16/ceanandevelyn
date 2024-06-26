@@ -1,0 +1,38 @@
+// Settings
+
+// Typography
+$font-family-serif: "mrs-eaves", times, serif;
+$font-family-serif-smallcaps: "mrs-eaves-roman-all-small-ca", serif;
+$font-family-serif-alt: "Libre Baskerville", times, serif;
+$font-family-sans: "brandon-grotesque", "Helvetica Neue", Helvetica, sans-serif;
+
+// Colors
+$deepnavy: #153048;
+$smokeblue: #a2c3d4;
+// $smokeblue--light: #DAE7EE;
+// $smokeblue--lightest: #E3E9EC;
+// $smokeblue--dark: #8297AB;
+
+$color-gray: #f5f5f5;
+$color-black: #444444;
+$color-white: #ffffff;
+
+// Palette
+$color-primary: $smokeblue;
+$color-secondary: $deepnavy;
+$color-primary--light: tint($color-primary, 60%);
+$color-primary--lighter: tint($color-primary, 75%);
+$color-primary--dark: shade($color-primary, 20%);
+$color-text: $color-black;
+
+// Animation
+$default-transition-speed: 200ms;
+$default-transition-ease: ease-in;
+
+// Z-index
+$z0: 0;
+$z1: 10;
+$z2: 20;
+$z3: 30;
+$z4: 40;
+$z5: 50;
