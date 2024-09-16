@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/main.scss";
-import horizontal from "../images/horizontal.jpg";
+// import horizontal from "../images/horizontal.jpg";
 
 const Main = () => {
   return (
