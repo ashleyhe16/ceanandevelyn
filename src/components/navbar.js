@@ -4,6 +4,9 @@ import "../styles/navbar.scss";
 const NavBar = () => {
   return (
     <nav className="navbar">
+      <a className="logo" href="./">
+        cean and evelyn
+      </a>
       <ul className="navbar__links">
         <li className="navbar__link--hidden-mobile">
           <a className="navbar__link" href="#a-story">

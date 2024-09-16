@@ -14,6 +14,7 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "@lee-wfaa/gatsby-plugin-password-protect": "^1.0.1",
     "es6-promise": "^4.2.8",
     "gatsby": "^5.13.5",
     "gatsby-plugin-image": "^3.13.1",

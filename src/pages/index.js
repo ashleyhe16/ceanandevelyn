@@ -3,6 +3,7 @@ import { Helmet } from "react-helmet";
 import Footer from "../components/footer";
 import Header from "../components/header";
 import NavBar from "../components/navbar";
+import Main from "../components/main";
 import "../styles/index.scss";
 
 const IndexPage = () => {
@@ -52,9 +53,10 @@ const IndexPage = () => {
           content="/favicon/browserconfig.xml"
         /> */}
       </Helmet>
-      <NavBar />
-      <Header />
-      <Footer />
+      {/* <NavBar />
+      <Main />
+      <Footer /> */}
+      <Main />
     </main>
   );
 };
