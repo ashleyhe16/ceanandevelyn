@@ -1,13 +1,12 @@
 import React from "react";
-import Layout from "../components/layout";
 import FormContainer from "../components/rsvp/rsvp-form-container";
 import NavBar from "../components/navbar";
 
 const rsvp = () => (
-  <Layout>
+  <div>
     <NavBar />
     <FormContainer />
-  </Layout>
+  </div>
 );
 
 export default rsvp;
