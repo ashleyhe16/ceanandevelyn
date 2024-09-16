@@ -1,8 +1,8 @@
 import * as React from "react";
 import { Helmet } from "react-helmet";
-import Footer from "../components/footer";
-import Header from "../components/header";
-import NavBar from "../components/navbar";
+// import Footer from "../components/footer";
+// import Header from "../components/header";
+// import NavBar from "../components/navbar";
 import Main from "../components/main";
 import "../styles/index.scss";
 
