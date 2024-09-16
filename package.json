@@ -15,6 +15,7 @@
   },
   "dependencies": {
     "@lee-wfaa/gatsby-plugin-password-protect": "^1.0.1",
+    "add-to-calendar-button": "^2.6.19",
     "es6-promise": "^4.2.8",
     "gatsby": "^5.13.5",
     "gatsby-plugin-image": "^3.13.1",

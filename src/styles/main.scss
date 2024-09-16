@@ -58,9 +58,33 @@ html {
 
 .divider {
   height: 2px;
-  background-color: #bbbbbb; /* Example divider color */
-  margin-bottom: 5px; /* Adjust spacing */
+  background-color: white; /* Example divider color */
   border-radius: 5px;
-  width: 30px;
-  margin: 10px auto 10px auto;
+  width: 20px;
+  margin: 18px auto 18px auto;
+}
+
+.venue-address {
+  color:white;
+}
+
+.cal-button {
+  display: flex;
+  margin-top: 20px;
+  justify-content: center; /* Vertically centers text */
+  align-items: center; /* Horizontally centers text */
+}
+
+.date-text {
+  font-size: 20px;
+}
+
+.address-text {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.invitations {
+  font-size: 14px;
+  margin-top: 10px;
 }
