@@ -136,7 +136,11 @@ html {
 @media (max-width: 768px) {
   .venue-text,
   .date-text {
-    font-size: 12px; // Adjust text size for mobile
+    font-size: 14px; // Adjust text size for mobile
+  }
+  .header-text,
+  .script-text {
+    font-size: 20px;
   }
   .main-img {
     margin-top: 10px;
