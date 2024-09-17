@@ -15,6 +15,51 @@
                             'embedded-opentype', and 'svg' */
 }
 
+@font-face {
+  font-family: "Garamond";
+  src:
+    local("Garamond"),
+    url(../fonts/EBGaramond-Regular.ttf) format("woff2");
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+                            'embedded-opentype', and 'svg' */
+}
+
+@font-face {
+  font-family: "Kalnia";
+  src:
+    local("Kalnia"),
+    url(../fonts/KalniaGlaze-Regular.ttf) format("woff2");
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+                            'embedded-opentype', and 'svg' */
+}
+
+@font-face {
+  font-family: "Cormorant";
+  src:
+    local("Cormorant"),
+    url(../fonts/Cormorant-Regular.ttf) format("woff2");
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+                            'embedded-opentype', and 'svg' */
+}
+
+@font-face {
+  font-family: "CormorantBOLD";
+  src:
+    local("CormorantBOLD"),
+    url(../fonts/Cormorant-Bold.ttf) format("woff2");
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+                            'embedded-opentype', and 'svg' */
+}
+
+@font-face {
+  font-family: "Sheffield";
+  src:
+    local("Sheffield"),
+    url(../fonts/Sheffield.ttf) format("woff2");
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+                            'embedded-opentype', and 'svg' */
+}
+
 .main {
-  font-family: "Maru";
+  font-family: "Cormorant";
 }

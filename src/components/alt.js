@@ -1,23 +1,26 @@
 import React from "react";
-import "../styles/main.scss";
+import "../styles/alt.scss";
 import "add-to-calendar-button";
-import hands from "../images/hands.jpg";
+// import horizontal from "../images/horizontal.jpg";
 
-const Main = () => {
+const Alt = () => {
   return (
     <div className="container">
+      {/* <img src={horizontal} class="wave-img" /> */}
+
       <div className="save-the-date-text">
-        <div className="header-text">
-          cean park <div className="script-text"> and </div> evelyn kang
-        </div>
+        <div className="header-text"> cean & evelyn</div>
         <div className="subtitle-text">we're getting married!</div>
-        <img src={hands} class="main-img" alt="couple holding hands" />
         <div className="venue-text">
+          {/* Save the Date:
+          <div className="divider"></div> */}
           <div className="date-text"> September 27, 2025 </div>
           <div className="divider"></div>
-          <div>
-            <a className="venue-address-text" href="https://g.co/kgs/mo9U1ps">
-              The Wythe Hotel
+          <div> The Wythe Hotel</div>
+          <div className="address-text">
+            Address: {"  "}
+            <a className="venue-address" href="https://g.co/kgs/mo9U1ps">
+              80 Wythe Ave, Brooklyn, NY 11249
             </a>
           </div>
           <div className="cal-button">
@@ -35,11 +38,11 @@ const Main = () => {
               buttonStyle="round"
             ></add-to-calendar-button>
           </div>
-          <span className="invitations">RSVP Coming Soon!</span>
+          <span className="invitations">Invitations to follow</span>
         </div>
       </div>
     </div>
   );
 };
 
-export default Main;
+export default Alt;

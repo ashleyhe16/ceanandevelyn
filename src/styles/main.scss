@@ -10,10 +10,12 @@ html {
   display: flex;
   align-items: center;
   justify-content: center; /* Centers content horizontally */
-  background-image: url("../images/horizontal.jpg");
+  background-image: url("../images/leaf.jpeg");
   background-size: cover;
   background-position: center; /* Ensures image is centered */
   background-repeat: no-repeat;
+  opacity: 100%;
+  background-blend-mode: normal;
   margin: 0;
   padding: 0;
   height: 100vh; /* Full viewport height */
@@ -26,46 +28,55 @@ html {
   flex-direction: column;
   justify-content: center; /* Vertically centers text */
   align-items: center; /* Horizontally centers text */
-  font-family: "Libre";
+  font-family: "Cormorant";
   font-weight: 400;
   font-style: normal;
   text-align: center;
   color: white; /* To ensure text is visible on the image */
-  background-color: rgba(
-    99,
-    99,
-    99,
-    0.5
-  ); /* Optional: Adds a dark overlay for better text visibility */
+  //   background-color: rgba(
+  //     99,
+  //     99,
+  //     99,
+  //     0.5
+  //   ); /* Optional: Adds a dark overlay for better text visibility */
   width: 100%; /* Make sure it spans full width */
   height: 100%; /* Make sure it spans full height */
 }
 .venue-text {
   display: flex;
   flex-direction: column;
-  font-family: "Libre";
+  font-family: "Cormorant";
   font-weight: 400;
   font-style: normal;
   text-align: center;
-  margin: 350px auto auto auto;
+  margin: auto;
+  margin-top: 20px;
+  color: rgb(8, 49, 0);
 }
 
 .header-text {
-  font-size: 30px;
-  margin-top: 80px;
+  font-size: 40px;
+  margin-top: 40px;
   margin-bottom: 20px;
+  color: rgb(8, 49, 0);
+}
+
+.subtitle-text {
+  color: rgb(8, 49, 0);
+  font-size: 20px;
 }
 
 .divider {
   height: 2px;
-  background-color: white; /* Example divider color */
+  background-color: rgba(8, 49, 0, 0.311); /* Example divider color */
   border-radius: 5px;
   width: 20px;
-  margin: 18px auto 18px auto;
+  margin: 14px auto 14px auto;
 }
 
-.venue-address {
-  color:white;
+.venue-address-text {
+  color: rgb(8, 49, 0);
+  font-size: 16px;
 }
 
 .cal-button {
@@ -77,14 +88,59 @@ html {
 
 .date-text {
   font-size: 20px;
-}
-
-.address-text {
-  margin-top: 10px;
-  font-size: 14px;
+  color: rgb(8, 49, 0);
 }
 
 .invitations {
-  font-size: 14px;
-  margin-top: 10px;
+  font-size: 16px;
+  margin-top: 16px;
+}
+
+.script-text {
+  font-family: "Sheffield";
+  color: rgb(8, 49, 0);
+  margin-top: -8px;
+  margin-bottom: -8px;
+}
+
+.main-img {
+  margin-top: 20px;
+  width: 580px; /* you can use % */
+  height: auto;
+}
+
+@media (max-width: 1200px) {
+  .venue-text,
+  .date-text {
+    font-size: 16px; // Adjust text size for medium screens
+  }
+  .main-img {
+    margin-top: 10px;
+    width: 540px; /* you can use % */
+    height: auto;
+  }
+}
+
+@media (max-width: 992px) {
+  .venue-text,
+  .date-text {
+    font-size: 14px; // Adjust text size for smaller screens
+  }
+  .main-img {
+    margin-top: 10px;
+    width: 540px; /* you can use % */
+    height: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .venue-text,
+  .date-text {
+    font-size: 12px; // Adjust text size for mobile
+  }
+  .main-img {
+    margin-top: 10px;
+    width: 540px; /* you can use % */
+    height: auto;
+  }
 }

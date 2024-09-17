@@ -1,0 +1,90 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Centers content horizontally */
+  background-image: url("../images/hands.jpg");
+  background-size: cover;
+  background-position: center; /* Ensures image is centered */
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  height: 100vh; /* Full viewport height */
+  width: 100vw; /* Full viewport width */
+  overflow: hidden; /* Ensures no extra scrollbars */
+}
+
+.save-the-date-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Vertically centers text */
+  align-items: center; /* Horizontally centers text */
+  font-family: "Garamond";
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  color: white; /* To ensure text is visible on the image */
+  background-color: rgba(
+    99,
+    99,
+    99,
+    0.5
+  ); /* Optional: Adds a dark overlay for better text visibility */
+  width: 100%; /* Make sure it spans full width */
+  height: 100%; /* Make sure it spans full height */
+}
+.venue-text {
+  display: flex;
+  flex-direction: column;
+  font-family: "Garamond";
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  margin: 350px auto auto auto;
+}
+
+.header-text {
+  font-size: 30px;
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
+
+.divider {
+  height: 2px;
+  background-color: white; /* Example divider color */
+  border-radius: 5px;
+  width: 20px;
+  margin: 18px auto 18px auto;
+}
+
+.venue-address {
+  color: white;
+}
+
+.cal-button {
+  display: flex;
+  margin-top: 20px;
+  justify-content: center; /* Vertically centers text */
+  align-items: center; /* Horizontally centers text */
+}
+
+.date-text {
+  font-size: 20px;
+}
+
+.address-text {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.invitations {
+  font-size: 14px;
+  margin-top: 10px;
+}
