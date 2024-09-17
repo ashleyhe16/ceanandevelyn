@@ -56,7 +56,7 @@ html {
 
 .header-text {
   font-size: 40px;
-  margin-top: 40px;
+  margin-top: 20px;
   margin-bottom: 20px;
   color: rgb(8, 49, 0);
 }
@@ -112,7 +112,7 @@ html {
 @media (max-width: 1200px) {
   .venue-text,
   .date-text {
-    font-size: 16px; // Adjust text size for medium screens
+    font-size: 16px; // Adjust text size for mobile
   }
   .main-img {
     margin-top: 10px;
@@ -124,7 +124,7 @@ html {
 @media (max-width: 992px) {
   .venue-text,
   .date-text {
-    font-size: 14px; // Adjust text size for smaller screens
+    font-size: 18px; // Adjust text size for mobile
   }
   .main-img {
     margin-top: 10px;
@@ -136,15 +136,28 @@ html {
 @media (max-width: 768px) {
   .venue-text,
   .date-text {
-    font-size: 14px; // Adjust text size for mobile
+    font-size: 16px; // Adjust text size for mobile
   }
   .header-text,
   .script-text {
-    font-size: 20px;
+    font-size: 24px;
+  }
+  .header-text {
+    margin-bottom: 10px;
+  }
+  .subtitle-text {
+    font-size: 16px;
   }
   .main-img {
     margin-top: 10px;
     width: 540px; /* you can use % */
     height: auto;
+  }
+  .invitations {
+    margin: 4px;
+    font-size: 12px;
+  }
+  .cal-button {
+    margin-top: 4px;
   }
 }
