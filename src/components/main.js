@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/main.scss";
 import "add-to-calendar-button";
-import hands from "../images/hands.JPG";
+import engagement from "../images/engagement.jpg";
 
 const Main = () => {
   return (
@@ -11,7 +11,7 @@ const Main = () => {
           cean park <div className="script-text"> and </div> evelyn kang
         </div>
         <div className="subtitle-text">we're getting married!</div>
-        <img src={hands} class="main-img" alt="couple holding hands" />
+        <img src={engagement} class="main-img" alt="couple holding hands" />
         <div className="venue-text">
           <div className="date-text"> September 27, 2025 </div>
           <div className="divider"></div>
