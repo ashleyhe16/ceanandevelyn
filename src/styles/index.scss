@@ -56,8 +56,13 @@
   src:
     local("Sheffield"),
     url(../fonts/Sheffield.ttf) format("woff2");
-  /* other formats include: 'woff2', 'truetype, 'opentype',
-                            'embedded-opentype', and 'svg' */
+}
+
+@font-face {
+  font-family: "Darker";
+  src:
+    local("Darker"),
+    url(../fonts/DarkerGrotesque-Regular.ttf) format("woff2");
 }
 
 .main {
