@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/main.scss";
 import "add-to-calendar-button";
-import hands from "../images/hands.jpg";
+import hands from "../images/hands.JPG";
 
 const Main = () => {
   return (
