@@ -103,55 +103,110 @@ html {
   height: auto;
 }
 
-@media (max-width: 1200px) {
-  .venue-text,
-  .date-text {
-    font-size: 16px; // Adjust text size for mobile
-  }
-  .main-img {
-    margin-top: 10px;
-    width: 540px; /* you can use % */
-    height: auto;
-  }
-}
+// @media (max-width: 1200px) {
+//   .venue-text,
+//   .date-text {
+//     font-size: 16px; // Adjust text size for mobile
+//   }
+//   .main-img {
+//     margin-top: 10px;
+//     width: 540px; /* you can use % */
+//     height: auto;
+//   }
+// }
 
-@media (max-width: 992px) {
-  .venue-text,
-  .date-text {
-    font-size: 18px; // Adjust text size for mobile
-  }
-  .main-img {
-    margin-top: 10px;
-    width: 540px; /* you can use % */
-    height: auto;
-  }
-}
+// @media (max-width: 992px) {
+//   .venue-text,
+//   .date-text {
+//     font-size: 18px; // Adjust text size for mobile
+//   }
+//   .main-img {
+//     margin-top: 10px;
+//     width: 540px; /* you can use % */
+//     height: auto;
+//   }
+// }
 
-@media (max-width: 768px) {
-  .venue-text,
-  .date-text {
-    font-size: 16px; // Adjust text size for mobile
-  }
-  .header-text,
-  .script-text {
-    font-size: 24px;
+// @media (max-width: 768px) {
+//   .venue-text,
+//   .date-text {
+//     font-size: 16px; // Adjust text size for mobile
+//   }
+//   .header-text,
+//   .script-text {
+//     font-size: 24px;
+//   }
+//   .header-text {
+//     margin-bottom: 10px;
+//   }
+//   .subtitle-text {
+//     font-size: 16px;
+//   }
+//   .main-img {
+//     margin-top: 10px;
+//     width: 540px; /* you can use % */
+//     height: auto;
+//   }
+//   .invitations {
+//     margin: 4px;
+//     font-size: 12px;
+//   }
+//   .cal-button {
+//     margin-top: 4px;
+//   }
+// }
+/* Mobile devices (portrait and landscape) */
+@media (max-width: 600px) {
+  .container {
+    padding: 10px;
   }
   .header-text {
-    margin-bottom: 10px;
+    font-size: 1.5em;
   }
   .subtitle-text {
-    font-size: 16px;
+    font-size: 1.2em;
   }
   .main-img {
-    margin-top: 10px;
-    width: 540px; /* you can use % */
+    width: 100%;
     height: auto;
   }
-  .invitations {
-    margin: 4px;
-    font-size: 12px;
+  .date-text {
+    font-size: 1em;
+  }
+  .venue-address-text {
+    font-size: 1em;
   }
   .cal-button {
-    margin-top: 4px;
+    margin-top: 10px;
+  }
+  .invitations {
+    font-size: 1em;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 768px) {
+ .container {
+   padding: 20px;
+ }
+ .header-text {
+   font-size: 2em;
+ }
+ .subtitle-text {
+   font-size: 1.5em;
+ }
+ .main-img {
+   width: 100%;
+   height: auto;
+ }
+ .date-text {
+   font-size: 1.2em;
+ }
+ .venue-address-text {
+   font-size: 1em;
+   .cal-button {
+    margin-top: 10px;
+  }
+  .invitations {
+    font-size: 1em;
   }
 }
