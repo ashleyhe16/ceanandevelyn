@@ -179,7 +179,7 @@ html {
 
 @media (min-width: 460px) and (max-width: 550px) {
   .header-text {
-    font-size: 1.8em;
+    font-size: 2em;
     margin-bottom: 10px;
   }
   .subtitle-text {
@@ -188,6 +188,36 @@ html {
   .main-img {
     width: 100%;
     height: auto;
+    margin-top: 20px;
+  }
+  .date-text {
+    font-size: 1.2em;
+  }
+  .venue-address-text {
+    font-size: 1.1em;
+  }
+  .venue-text {
+    margin-top: 16px;
+  }
+  .cal-button {
+    margin-top: 10px;
+  }
+  .invitations {
+    font-size: 0.9em;
+    margin-top: 0.2em;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 460px) {
+  .header-text {
+    font-size: 1.8em;
+  }
+  .subtitle-text {
+    font-size: 1.2em;
+  }
+  .main-img {
+    width: 100%;
+    height: auto;
   }
   .date-text {
     font-size: 1.2em;
@@ -195,79 +225,13 @@ html {
   .venue-address-text {
     font-size: 1em;
   }
-  .venue-text {
-    margin-top: 10px;
-  }
   .cal-button {
     margin-top: 10px;
   }
   .invitations {
-    font-size: 1em;
+    font-size: 0.9em;
     margin-top: 0.2em;
   }
-  //   @media (min-height: 630px) {
-  //     .invitations {
-  //       font-size: 14px;
-  //       margin-top: 20px;
-  //     }
-  //   }
-  //   @media (min-height: 800px) {
-  //   }
-}
-
-@media (min-width: 320px) and (max-width: 460px) {
-  .header-text {
-    font-size: 1.5em;
-  }
-  .subtitle-text {
-    font-size: 1em;
-  }
-  .main-img {
-    width: 100%;
-    height: auto;
-  }
-  .date-text {
-    font-size: 1em;
-  }
-  .venue-address-text {
-    font-size: 0.8em;
-  }
-  .cal-button {
-    margin-top: 10px;
-  }
-  .invitations {
-    font-size: 0.8em;
-    margin-top: 0.2em;
-  }
-  //   @media (min-height: 580px) {
-  //     .header-text {
-  //       font-size: 1.5em;
-  //       margin-top: 30px;
-  //     }
-  //     .subtitle-text {
-  //       font-size: 1em;
-  //     }
-  //     .main-img {
-  //       width: 100%;
-  //       height: auto;
-  //       margin-top: 20px;
-  //     }
-  //     .date-text {
-  //       font-size: 1em;
-  //     }
-  //     .venue-address-text {
-  //       font-size: 0.8em;
-  //     }
-  //     .cal-button {
-  //       margin-top: 10px;
-  //     }
-  //     .invitations {
-  //       font-size: 0.8em;
-  //       margin-top: 0.2em;
-  //     }
-  //   }
-  //   @media (min-height: 800px) {
-  //   }
 }
 
 /* Media query for smaller screens (phones) */
