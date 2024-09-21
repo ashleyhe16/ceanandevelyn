@@ -161,17 +161,23 @@ html {
   .date-text {
     font-size: 16px; // Adjust text size for mobile
   }
+  .venue-text {
+    margin-top: 14px;
+  }
+  .divider {
+    margin: 8px auto 8px auto;
+  }
   .main-img {
     margin-top: 10px;
     width: 540px; /* you can use % */
     height: auto;
   }
   .invitations {
-    margin-top: 10px;
+    margin-top: 6px;
   }
 }
 
-@media (min-width: 460px) and (max-width: 600px) {
+@media (min-width: 460px) and (max-width: 550px) {
   .header-text {
     font-size: 1.8em;
     margin-bottom: 10px;
@@ -199,6 +205,14 @@ html {
     font-size: 1em;
     margin-top: 0.2em;
   }
+  //   @media (min-height: 630px) {
+  //     .invitations {
+  //       font-size: 14px;
+  //       margin-top: 20px;
+  //     }
+  //   }
+  //   @media (min-height: 800px) {
+  //   }
 }
 
 @media (min-width: 320px) and (max-width: 460px) {
@@ -224,5 +238,43 @@ html {
   .invitations {
     font-size: 0.8em;
     margin-top: 0.2em;
+  }
+  //   @media (min-height: 580px) {
+  //     .header-text {
+  //       font-size: 1.5em;
+  //       margin-top: 30px;
+  //     }
+  //     .subtitle-text {
+  //       font-size: 1em;
+  //     }
+  //     .main-img {
+  //       width: 100%;
+  //       height: auto;
+  //       margin-top: 20px;
+  //     }
+  //     .date-text {
+  //       font-size: 1em;
+  //     }
+  //     .venue-address-text {
+  //       font-size: 0.8em;
+  //     }
+  //     .cal-button {
+  //       margin-top: 10px;
+  //     }
+  //     .invitations {
+  //       font-size: 0.8em;
+  //       margin-top: 0.2em;
+  //     }
+  //   }
+  //   @media (min-height: 800px) {
+  //   }
+}
+
+/* Media query for smaller screens (phones) */
+@media only screen and (max-width: 600px) {
+  .container {
+    height: auto; /* Background adjusts dynamically based on content */
+    min-height: 100vh; /* Minimum height is still full screen */
+    width: 100%; /* Adjust width to fit content dynamically */
   }
 }
